@@ -1,12 +1,25 @@
-# React + Vite
+# Customer Info Management - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the React.js frontend for a Customer Information Management System. The app allows users to manage customers and their associated mobile numbers 
+with features like creation, deletion, filtering, and error handling. It connects to a Spring Boot backend via REST APIs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Add new customer with one or more mobile numbers
+- 📲 Add/delete mobile numbers to/from existing customers
+- 🔍 Search customers by name or mobile number
+- 🗑️ Delete customer using mobile number
+- 📦 Dynamic form fields and validations
+- 🎉 Toast notifications for success/error
+- 🧼 Clean UI using Tailwind CSS
+- 🔗 Fully integrated with backend APIs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Axios, React Router, Tailwind CSS, React Icons, React Toastify
+- **Backend (separate repo):** Spring Boot, Hibernate, JPA, H2 Database
+
